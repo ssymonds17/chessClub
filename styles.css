@@ -98,3 +98,42 @@ h1 {
   text-align: center;
   padding-top: 1.5rem;
 }
+
+/* Results Section */
+
+.results {
+  text-align: center;
+  width: 50%;
+}
+
+.results h2 {
+  padding-bottom: 1rem;
+}
+
+.results table {
+  width: 85%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.results thead {
+  background-color: #742e12;
+  color: #d28a2d;
+}
+.results th {
+  height: 6.25rem;
+  border: 2px solid #d28a2d;
+}
+.results td {
+  height: 6.25rem;
+}
+
+.results td {
+  border: 2px solid #d28a2d;
+}
+
+hr.solid {
+  border-top: 3px solid #d28a2d;
+  width: 80%;
+  margin: 0 auto;
+}
