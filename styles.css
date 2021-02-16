@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Section */
+
+header {
+  background-color: #742e12;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Yeseva One', cursive;
+  font-size: 4rem;
+  color: #d28a2d;
+}
+
+/* Nav Section */
+
+.topNav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  background-color: #2f6c68;
+}
+.topNav li {
+  display: inline-block;
+  color: #bfbda2;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0.65rem 3rem;
+  font-weight: 500;
+}
+.topNav li:hover {
+  cursor: pointer;
+  background-color: #bfbda2;
+  color: #2f6c68;
+}
