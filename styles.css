@@ -3,6 +3,12 @@
   padding: 0;
 }
 
+html {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #2f6c68;
+  color: #bfbda2;
+}
+
 /* Header Section */
 
 header {
@@ -50,4 +56,45 @@ h1 {
 
 .hero img {
   width: 100%;
+}
+
+/* Upper Content */
+
+.upperContent {
+  display: flex;
+  margin-top: 3.5rem;
+}
+
+/* Members */
+
+.members {
+  width: 50%;
+  text-align: center;
+}
+.memberBox {
+  margin: 1rem;
+  display: flex;
+  background-color: #2f6c68;
+  border: 2px solid #d28a2d;
+  height: 14.3rem;
+}
+.playerImg {
+  width: 50%;
+}
+.memberBoxText {
+  width: 100%;
+}
+.memberBoxText h4 {
+  font-size: 1.5rem;
+}
+.memberName {
+  width: 100%;
+  text-transform: uppercase;
+  background-color: #742e12;
+  color: #d28a2d;
+  margin-bottom: 1rem;
+}
+.memberBoxText h1 {
+  text-align: center;
+  padding-top: 1.5rem;
 }
