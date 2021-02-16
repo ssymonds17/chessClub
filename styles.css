@@ -65,6 +65,12 @@ h1 {
   margin-top: 3.5rem;
 }
 
+@media only screen and (max-width: 1300px) {
+  .upperContent {
+    display: block;
+  }
+}
+
 /* Members */
 
 .members {
@@ -100,6 +106,33 @@ h1 {
   padding-top: 0.5rem;
 }
 
+@media only screen and (max-width: 1300px) {
+  .members {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .memberBox {
+    height: 18rem;
+    width: 60%;
+    margin: 2rem auto;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .memberBox {
+    display: block;
+    height: auto;
+    width: 65%;
+  }
+  .playerImg {
+    width: 100%;
+    background-color: #742e12;
+  }
+  .memberName {
+    margin: -0.25rem 0;
+  }
+}
+
 /* Results Section */
 
 .results {
@@ -131,6 +164,17 @@ h1 {
 
 .results td {
   border: 2px solid #d28a2d;
+}
+
+@media only screen and (max-width: 1300px) {
+  .results {
+    width: 80%;
+    margin: 3rem auto;
+  }
+  .results table {
+    margin-top: 1rem;
+    min-width: 25rem;
+  }
 }
 
 /* Locations Section */
